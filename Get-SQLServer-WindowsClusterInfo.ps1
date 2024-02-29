@@ -28,7 +28,7 @@ function Get-SQLServer-WindowsClusterInfo
  
             if (($WMIRootMSCluster -eq $null) -and ($ClusterResource -eq $null))
             {
-                Write-Output 'Standalone'
+                Write-Output 'Single Node Cluster'
             }
             elseif (($WMIRootMSCluster -ne $null) -and ($ClusterResource -eq $null))
             {
