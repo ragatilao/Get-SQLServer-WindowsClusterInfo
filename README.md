@@ -4,4 +4,5 @@ Retrieve information about the SQL Server Windows cluster without establishing a
 Get-SQLServer-WindowsClusterInfo -servername YourServerName
 
 NOTE: Failover Cluster Module is required to use this function.
+
 https://learn.microsoft.com/en-us/powershell/module/failoverclusters/?view=windowsserver2022-ps
